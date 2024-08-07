@@ -354,7 +354,7 @@ align-items: center;
 
 @media (max-width: 768px) {
 body {
-    width: 768px;
+    width: 100%;
     margin: 0px;
     padding: 0px;
 }
@@ -397,24 +397,30 @@ body {
 }
 
 .key {
-    width: 353px;
-    height: 425px;
+    width: 320px;
+    height: 350px;
     border-radius: 10px 0 0 10px;
-    margin-right: 23.8rem;
+    margin-right: -40px;
 }
 
 .typediv {
-    height: 312px;
-    width: 445px;
+    height: 340px;
+    width: 345px;
+}
+
+.sec2div {
+    height: 480px;
+    width: 100%;
+    margin-top: 50px;
 }
 
 .sec2head {
     font-family: "Barlow", sans-serif;
     font-weight: 800;
     font-style: normal;
-    font-size: 48px;
+    font-size: 45px;
     color: #162542;
-    margin-top: 47px;
+    margin-top: 20px;
     width: 339px;
     height: 96px;   
     position: absolute;
@@ -428,13 +434,13 @@ body {
     font-weight: 400;
     color: #7B8BAD;
     font-style: normal;
-    margin-top: 12rem;
+    margin-top: 10rem;
     position: absolute;
 }
 
 .btno {
-    height: 58px;
-    width: 175px;
+    height: 50px;
+    width: 155px;
     background-color: #F16718;
     color: #FFFFFF;
     cursor: pointer;
@@ -443,7 +449,7 @@ body {
     font-family: "Barlow", sans-serif;
     font-weight: 400;
     border-radius: 8px;
-    position: absolute;
+    /* position: absolute;  */
     margin-top: 17rem;
 } 
 
@@ -458,8 +464,8 @@ body {
     font-size: 16px;
     font-family: "Barlow", sans-serif;
     font-weight: 600;
-    margin-left: 13rem;
-    margin-top: 18.2rem;
+    margin-left: 2rem;
+    margin-top: 18rem;
     position: absolute;
 }
 
@@ -472,31 +478,41 @@ body {
 }
 
 .orangediv {
-    height: 320px;
+    height: 350px;
     width: 214px;
     background-color: #F16718;
-    border-radius: 10px;
-    margin-top: 30px;
+    border-radius: 15px;
+    position: absolute;
 }
 
 .keyglass {
-    height: 320px;
-    width: 445px;
-    margin-left: 72px;
-    margin-top: 30px;
-    border-radius: 10px;
+    height: 350px;
+    width: 430px;
+    border-radius: 15px;
+    margin-left: 16rem;
+    position: absolute;
+}
+
+.sec3div {
+    height: 350px;
+    width: 100%;
+    margin-top: -5rem;
 }
 
 .sec3head {
-    height: 255px;
-    width: 108px;
+    height: 120px;
+    width: 188px;
     font-size: 32px;
     color: #162542;
-    margin-left: -52.8rem;
-    margin-top: 18rem;
+    margin-left: -7rem;
+    margin-top: 5rem;
     font-family: "Barlow", sans-serif;
-    font-weight: 700;
+    font-weight: 800;
     font-style: normal;
+}
+
+.mechdiv {
+    margin-top: 22rem;
 }
 
 .mechdiv>p {
@@ -507,14 +523,14 @@ body {
     font-family: "Barlow", sans-serif;
     font-weight: 500;
     font-style: normal;
-    margin-top: -17rem;
-    margin-left: -32rem;
+    margin-top: -9rem;
+    margin-left: 11rem;
 }
 
 .sec4div {
     height: 650px;
     width: 631px;
-    margin-top: 150px;
+    margin-top: 20rem;
     margin-left: 5px;
     display: flex;
     flex-direction: row;
@@ -713,7 +729,7 @@ body {
     .navbar {
         width: 720px;
         height: 58px;
-        margin-left: 400px;
+        margin-left: 380px;
     }
 
     .ulogo {
@@ -735,6 +751,7 @@ body {
         color: #162542;
         background-color: #E8EFF2;
         border: none;
+        margin-right: 20px;
         border-radius: 10px;
     }
 
@@ -745,11 +762,11 @@ body {
     }
 
     .key {
-        width: 720px;
-        height: 425px;
+        width: 664px;
+        height: 410px;
         border-radius: 25px 0 0 25px;
         margin-top: 31rem;
-        margin-right: 23.8rem;
+        margin-right: 0px;
     }
 
     .sec2head {
@@ -808,17 +825,17 @@ body {
 
     .orangediv {
         height: 320px;
-        width: 220px;
+        width: 230px;
         background-color: #F16718;
         border-radius: 0px 25px 25px 0px;
         margin-top: 30px;
-        margin-left: -32px;
+        margin-left: -50px;
     }
     
     .keyglass {
         height: 320px;
-        width: 460px;
-        margin-left: 45px;
+        width: 410px;
+        margin-left: 14rem;
         margin-top: 30px;
         border-radius: 25px;
     }
@@ -828,12 +845,11 @@ body {
         width: 390px;
         font-size: 55px;
         color: #162542;
-        margin-left: -40rem;
-        margin-top: 22rem;
         text-align: center;
         font-family: "Barlow", sans-serif;
         font-weight: 800;
         font-style: normal;
+        margin-left: 5px;
     }
     
     .mechdiv>p {
@@ -845,7 +861,7 @@ body {
         font-family: "Barlow", sans-serif;
         font-weight: 400;
         margin-top: -3rem;
-        margin-left: -44.5rem;
+        margin-left: -5rem;
     }
 
     .tvdiv {
@@ -856,7 +872,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 20.3rem;
+        margin-left: 17.1rem;
         margin-top: 19rem;
     }
     
@@ -871,7 +887,7 @@ body {
         font-style: normal;
         text-align: center;
         color: #162542;
-        margin-left: 15.7rem;
+        margin-left: 12.5rem;
     }
     
     .tv>p {
@@ -884,13 +900,13 @@ body {
         color: #7B8BAD;
         font-family: "Barlow", sans-serif;
         font-weight: 400;
-        margin-left: 5.2rem;
+        margin-left: 1.3rem;
     }
 
     .bluetooth {
         height: 289px;
         width: 355px;
-        margin-left: -1.5rem;
+        margin-left: -4rem;
         margin-top: 48rem;
     }
     
@@ -902,7 +918,6 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 15px;
     }
     
     .bthead {
@@ -930,14 +945,14 @@ body {
         color: #7B8BAD;
         font-family: "Barlow", sans-serif;
         font-weight: 400;
-        margin-left: -14rem;
+        margin-left: -15.7rem;
     }
     
     .battery {
         height: 289px;
         width: 281px;
-        margin-top: 75rem;
-        margin-left: -21.5rem;
+        margin-top: 76rem;
+        margin-left: -22rem;
     }
     
     .batdiv {
@@ -948,7 +963,6 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 10px;
     }
     
     .bathead {
@@ -974,7 +988,7 @@ body {
         color: #7B8BAD;
         font-family: "Barlow", sans-serif;
         font-weight: 400;
-        margin-left: -14.8rem;
+        margin-left: -15.8rem;
     }
     
     .bulb {
@@ -992,7 +1006,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 20px;
+        margin-left: 10px;
     }
     
     .bulbhead {
@@ -1004,7 +1018,7 @@ body {
         font-family: "Barlow", sans-serif;
         font-weight: 800;
         color: #162542; 
-        margin-left: -3rem;
+        margin-left: -4rem;
         margin-top: 3rem;
         text-align: center;
     }
@@ -1014,7 +1028,7 @@ body {
         width: 555px;
         font-size: 28px;
         margin-top: -35px;
-        margin-left: -14.5rem;
+        margin-left: -15.3rem;
         color: #7B8BAD;
         text-align: center;
         font-family: "Barlow", sans-serif;
@@ -1029,7 +1043,6 @@ body {
         font-family: "Barlow", sans-serif;
         font-weight: 400;
         margin-top: 93rem;
-        margin-left: 15rem;
         padding-bottom: 50px;
     }
         
